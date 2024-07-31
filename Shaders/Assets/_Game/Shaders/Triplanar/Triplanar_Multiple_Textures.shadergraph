@@ -14,6 +14,9 @@
         },
         {
             "m_Id": "7a334ea0d4dd4618b6f7940b5d417975"
+        },
+        {
+            "m_Id": "fba35acbd0d5462688e6df2ee42fccea"
         }
     ],
     "m_Keywords": [],
@@ -175,9 +178,9 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "280d1058997b414385b6958f011b7268"
+                    "m_Id": "6762e062a29540449b7e383e1fd847a6"
                 },
-                "m_SlotId": 1
+                "m_SlotId": 0
             }
         },
         {
@@ -189,9 +192,9 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "6762e062a29540449b7e383e1fd847a6"
+                    "m_Id": "280d1058997b414385b6958f011b7268"
                 },
-                "m_SlotId": 0
+                "m_SlotId": 1
             }
         },
         {
@@ -681,10 +684,10 @@
     "m_Guid": {
         "m_GuidSerialized": "b73636a5-d481-4a32-bf4f-3727d804322b"
     },
-    "m_Name": "Texture G",
+    "m_Name": "Side",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Texture G",
-    "m_DefaultReferenceName": "_Texture_G",
+    "m_RefNameGeneratedByDisplayName": "Side",
+    "m_DefaultReferenceName": "_Side",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1023,7 +1026,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "416bf5cb26af41e0abeb2ca2201619c9",
     "m_Id": 0,
-    "m_DisplayName": "Texture G",
+    "m_DisplayName": "Side",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1186,6 +1189,9 @@
         },
         {
             "m_Id": "204aa86f2ead4dd4a2dfb691e5928c44"
+        },
+        {
+            "m_Id": "fba35acbd0d5462688e6df2ee42fccea"
         },
         {
             "m_Id": "7a334ea0d4dd4618b6f7940b5d417975"
@@ -1574,10 +1580,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2412.0,
-            "y": -230.00003051757813,
+            "x": -2391.0,
+            "y": -494.0,
             "width": 120.0,
-            "height": 149.00003051757813
+            "height": 148.99996948242188
         }
     },
     "m_Slots": [
@@ -2094,10 +2100,10 @@
     "m_Guid": {
         "m_GuidSerialized": "772a667b-ca55-4d10-90aa-dca1bbb7c965"
     },
-    "m_Name": "Texture R",
+    "m_Name": "Top",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Texture R",
-    "m_DefaultReferenceName": "_Texture_R",
+    "m_RefNameGeneratedByDisplayName": "Top",
+    "m_DefaultReferenceName": "_Top",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -2209,10 +2215,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1959.0,
-            "y": 54.00002670288086,
-            "width": 207.9998779296875,
-            "height": 302.0
+            "x": -1959.0001220703125,
+            "y": 70.00000762939453,
+            "width": 208.0001220703125,
+            "height": 302.0000305175781
         }
     },
     "m_Slots": [
@@ -3087,7 +3093,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "e2d6d8504f3e420d9b4d6a605b6b471f",
     "m_Id": 0,
-    "m_DisplayName": "Texture R",
+    "m_DisplayName": "Top",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -3182,5 +3188,35 @@
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
+    "m_ObjectId": "fba35acbd0d5462688e6df2ee42fccea",
+    "m_Guid": {
+        "m_GuidSerialized": "e5c0e3b6-2148-40a7-8f22-cd0fc10f4fcf"
+    },
+    "m_Name": "Bottom",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Bottom",
+    "m_DefaultReferenceName": "_Bottom",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": {
+        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_Guid": ""
+    },
+    "isMainTexture": false,
+    "useTilingAndOffset": false,
+    "m_Modifiable": true,
+    "m_DefaultType": 0
 }
 

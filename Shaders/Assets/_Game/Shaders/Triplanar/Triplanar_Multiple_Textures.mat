@@ -37,8 +37,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Bottom:
+        m_Texture: {fileID: 2800000, guid: d4f03636c6e1b6847b7dee30549bcc92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Side:
+        m_Texture: {fileID: 2800000, guid: d4f03636c6e1b6847b7dee30549bcc92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture_B:
-        m_Texture: {fileID: 2800000, guid: 0376d8257bae7da4ab396767ee86967e, type: 3}
+        m_Texture: {fileID: 2800000, guid: d4f03636c6e1b6847b7dee30549bcc92, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_G:
@@ -46,6 +54,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture_R:
+        m_Texture: {fileID: 2800000, guid: d4f03636c6e1b6847b7dee30549bcc92, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Top:
+        m_Texture: {fileID: 2800000, guid: 13033501e5a3f3a4c9df12eac9f53b11, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _asd:
         m_Texture: {fileID: 2800000, guid: d4f03636c6e1b6847b7dee30549bcc92, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -63,7 +79,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Blend_Sharpness: 0
+    - _Blend_Sharpness: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
